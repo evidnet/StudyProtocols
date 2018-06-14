@@ -13,11 +13,12 @@ How to run
 	```r
 	install.packages("devtools")
 	library(devtools)
-    install_github("ohdsi/OhdsiRTools") 
-    install_github("ohdsi/SqlRender")
-    install_github("ohdsi/DatabaseConnector")
-    install_github("ohdsi/Cyclops")
-    install_github("ohdsi/PatientLevelPrediction") 
+	install_github("ohdsi/OhdsiRTools") 
+	install_github("ohdsi/SqlRender")
+	install_github("ohdsi/DatabaseConnector")
+	install_github("ohdsi/Cyclops")
+	install_github("ohdsi/FeatureExtraction", ref = "v1.2.3")
+	install_github("ohdsi/PatientLevelPrediction") 
 	install_github("ohdsi/OhdsiSharing")
 	install_github("ohdsi/StudyProtocols/CelecoxibPredictiveModels")
 	```
