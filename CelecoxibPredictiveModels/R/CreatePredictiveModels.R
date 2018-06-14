@@ -111,7 +111,7 @@ createPredictiveModels <- function(connectionDetails,
 
 
 
-        plpData <- PatientLevelPrediction::getDbPlpData(connectionDetails,
+        plpData <- PatientLevelPrediction::getPlpData(connectionDetails,
                                                         cdmDatabaseSchema = cdmDatabaseSchema,
                                                         cohortDatabaseSchema = workDatabaseSchema,
                                                         cohortTable = studyCohortTable,
