@@ -56,7 +56,7 @@ createPredictiveModels <- function(connectionDetails,
         celecoxibDrugs <- celecoxibDrugs[,1]
         RJDBC::dbDisconnect(conn)
 
-        covariateSettings <- PatientLevelPrediction::createCovariateSettings(useCovariateDemographics = TRUE,
+        covariateSettings <- FeatureExtraction::createCovariateSettings(useCovariateDemographics = TRUE,
                                                                              useCovariateDemographicsGender = TRUE,
                                                                              useCovariateDemographicsRace = TRUE,
                                                                              useCovariateDemographicsEthnicity = TRUE,
