@@ -113,7 +113,7 @@ createCohorts <- function(connectionDetails,
     writeLines("Cohort counts:")
     print(counts)
 
-    RJDBC::dbDisconnect(conn)
+    DatabaseConnector::disconnect(conn)
     invisible(NULL)
 }
 
